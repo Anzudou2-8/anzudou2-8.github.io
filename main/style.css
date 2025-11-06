@@ -1,0 +1,242 @@
+/* 全体CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(image/haikei.png);
+    background-attachment: fixed;
+}
+
+/* モバイル関連 */
+@media (max-width: 600px) {
+    .pagetop #topbutton {
+        width: 14vw;
+    }
+  #pafestyle,
+  #jellystyle {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .pafe-wrap,
+  .nedan-wrap,
+  .jelly-wrap,
+  .jellynedan-wrap {
+    width: 40%;
+  }
+  #drinkstyle {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .drink-wrap,
+  .drinknedan-wrap {
+    width: 40%;
+  }
+  #sodastyle {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .soda-wrap,
+  .sodanedan-wrap {
+    width: 40%;
+  }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.pagetop {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+#topbutton  {
+    width: 80px;
+
+}
+
+header {
+    background-repeat: repeat-x;
+}
+#header-img {
+    text-align: center;
+}
+
+#header-img img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+#sweetsstyle {
+    font-size: 7vw;
+    text-align: center;
+}
+
+#drinkstyle {
+    font-size: 7vw;
+    text-align: center;    
+}
+
+#midasi_01 {
+    text-align: center;
+}
+
+#midasi_02 {
+    text-align: center;
+}
+#midasi_03  {
+    text-align: center;
+}
+
+
+#midasi_01 #sweets {
+    max-width: 70%;
+}
+
+#midasi_02 #drink {
+    max-width: 70%;
+}
+#midasi_03 #Setmenu {
+    max-width: 70%;
+}
+
+/* パフェ */
+#pafestyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  flex-wrap: nowrap;
+  margin: 30px 0;
+}
+
+.pafe-wrap {
+  width: 20%;
+  min-width: 100px;
+}
+
+.nedan-wrap {
+    width: 25%;
+    min-width: 120px;
+    text-align: center;
+}
+
+#pafe,
+#pafenedan {
+  width: 100%;
+  height: auto;
+}
+
+/* ゼリー */
+#jellystyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  flex-wrap: nowrap;
+  margin: 30px 0;
+}
+
+.jelly-wrap {
+  width: 40%;
+  min-width: 100px;
+}
+
+.jellynedan-wrap {
+  width: 25%;
+  min-width: 120px;
+}
+
+#jelly,
+#jellynedan {
+  width: 100%;
+  height: auto;
+}
+
+/* ドリンク */
+#drinkstyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  flex-wrap: nowrap;
+  margin: 30px 0;
+}
+
+.drink-wrap {
+  width: 50%;
+  min-width: 100px;
+}
+
+.drinknedan-wrap {
+  width: 30%;
+  min-width: 120px;
+}
+
+#drink,
+#drinknedan {
+  width: 100%;
+  height: auto;
+}
+
+#Allergy p {
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/* ソーダ */
+#sodastyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  flex-wrap: nowrap;
+  margin: 30px 0;
+}
+
+#soda {
+  width: 100%;
+  height: auto;
+  transform: rotate(-15deg); /* ← ここで15度傾ける！ */
+}
+
+.soda-wrap {
+  width: 10%;
+  min-width: 70px;
+}
+
+.sodanedan-wrap {
+  width: 25%;
+  min-width: 120px;
+}
+
+#soda,
+#sodanedan {
+  width: 100%;
+  height: auto;
+}
+
+div #set img {
+    width: 80%;
+    height: auto;
+}
+#set_nedan {
+  text-align: center;
+}
+
+#set_nedan_img {
+  width: 70%;
+  height: auto;
+}
