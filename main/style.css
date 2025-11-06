@@ -1,0 +1,151 @@
+/* 全体CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(image/haikei.png);
+    background-attachment: fixed;
+}
+
+/* モバイル関連 */
+@media (max-width: 600px) {
+    .pagetop #topbutton {
+        width: 18vw;
+    }
+  #pafestyle,
+  #jellystyle {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .pafe-wrap,
+  .nedan-wrap,
+  .jelly-wrap,
+  .jellynedan-wrap {
+    width: 40%;
+  }
+}
+
+/* タブレット関連 */
+/* @media (min-width: 744px) and (max-width: 1024px) {
+
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+.pagetop {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+#topbutton  {
+    width: 80px;
+
+}
+
+header {
+    background-repeat: repeat-x;
+}
+#header-img {
+    text-align: center;
+}
+
+#header-img img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+#sweetsstyle {
+    font-size: 7vw;
+    text-align: center;
+}
+
+#drinkstyle {
+    font-size: 7vw;
+    text-align: center;    
+}
+
+#midasi_01 {
+    text-align: center;
+}
+
+#midasi_02 {
+    text-align: center;
+}
+#midasi_03  {
+    text-align: center;
+}
+
+
+#midasi_01 #sweets {
+    max-width: 70%;
+}
+
+#midasi_02 #drink {
+    max-width: 70%;
+}
+#midasi_03 #Setmenu {
+    max-width: 70%;
+}
+
+/* パフェ */
+#pafestyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  flex-wrap: nowrap;
+  margin: 30px 0;
+}
+
+.pafe-wrap {
+  width: 20%;
+  min-width: 100px;
+}
+
+.nedan-wrap {
+  width: 25%;
+  min-width: 120px;
+}
+
+#pafe,
+#pafenedan {
+  width: 100%;
+  height: auto;
+}
+
+/* ゼリー */
+#jellystyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  flex-wrap: nowrap;
+  margin: 30px 0;
+}
+
+.jelly-wrap {
+  width: 30%;
+  min-width: 100px;
+}
+
+.jellynedan-wrap {
+  width: 25%;
+  min-width: 120px;
+}
+
+#jelly,
+#jellynedan {
+  width: 100%;
+  height: auto;
+}
