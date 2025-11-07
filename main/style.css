@@ -1,0 +1,109 @@
+/* 全体CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(image/haikei.png);
+  background-attachment: fixed;
+}
+
+/* モバイル関連 */
+@media (max-width: 600px) {
+  .pagetop #topbutton {
+    width: 14vw;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.pagetop {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+#topbutton  {
+  width: 80px;
+}
+
+header {
+  background-repeat: repeat-x;
+}
+#header-img {
+  text-align: center;
+}
+
+#header-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+#midasi_01 {
+  text-align: center;
+}
+
+#midasi_02 {
+  text-align: center;
+}
+#midasi_03  {
+  text-align: center;
+}
+
+#midasi_01 #sweets {
+  max-width: 70%;
+}
+
+#midasi_02 #drink {
+  max-width: 70%;
+}
+#midasi_03 #Setmenu {
+  max-width: 70%;
+}
+
+#Allergy p {
+  text-align: center;
+  font-weight: bold;
+  color: #fffbf0;
+}
+
+.menu_img {
+  text-align: center;
+}
+
+/* パフェ */
+#pafe_img {
+  width: 100%;
+  height: auto;
+}
+
+/* ゼリー */
+#jelly_img {
+  width: 100%;
+  height: auto;
+}
+
+/* セットメニュー */
+#set_img {
+  width: 90%;
+  height: auto;
+}
+
+/* ドリンク */
+#drink_img {
+  width: 100%;
+  height: auto;
+}
+
+/* ラムネ */
+#ramune_img {
+  width: 100%;
+  height: auto;
+}
